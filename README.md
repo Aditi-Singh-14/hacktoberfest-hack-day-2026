@@ -1,4 +1,4 @@
-# Hacktoberfest Hack Day 2026 — Participant Prep
+# Hacktoberfest Hack Day 2026 - Participant Prep
 
 Welcome to the official preparation repository for **Hacktoberfest Hack Day 2026 by React Hyderabad**.
 
