@@ -1,181 +1,53 @@
-# Hacktoberfest Hack Day 2026 - Participant Prep
+# React Hyderabad × MLH Hack Day 2026
 
-Welcome to the official preparation repository for **Hacktoberfest Hack Day 2026 by React Hyderabad**.
+Welcome to the preparation and project submission hub for **Hacktoberfest Hack Day 2026 by React Hyderabad**.
 
-This repository contains the pre-event material you should go through before attending the Hack Day.
+**Hacktoberfest Hack Day • Hyderabad | MLH × DEV × React Hyderabad**
 
-The goal is simple:
+Build a focused project, demonstrate a working workflow, and share what you learned. Keep your project code in your own public GitHub repository; submit its details here through a pull request.
 
-- Help you revise the basics
-- Make sure your development environment is ready
-- Help you understand the Open-Source AI challenge
-- Introduce the MLH partner challenge technologies
-- Make sure you spend more time **building** during the event and less time on setup
+## Start here
 
-You do **not** need to be an AI/ML expert.
+1. Read [Pre-Event Prep](PRE-EVENT-PREP.md) and the [Hack Day Crash Course](HACK-DAY-CRASH-COURSE.md). Complete the preparation before attending.
+2. Review the [three planned challenges](PROBLEM_STATEMENTS.md) and choose your project direction.
+3. Prepare your tools and sample inputs. Build your submission during the event, following the organizers' rules.
+4. Copy [the submission template](SUBMISSION_TEMPLATE.md) into `submissions/` in your fork and open a pull request.
 
-Basic programming knowledge, Git/GitHub familiarity, and a willingness to learn are enough to get started.
+## Three planned challenges
 
----
+| Challenge | What to build | Brief |
+| --- | --- | --- |
+| Best Open-Source AI Project | A useful workflow powered by open-source or open-weight AI, an agent skill, or an original/meaningfully modified model harness | [Requirements and demo checklist](challenges/open-source-ai.md) |
+| Best Use of Gemma 4 | A focused experience using Gemma 4 through the Gemini API, with multimodal input where it adds value | [Requirements and demo checklist](challenges/gemma-4.md) |
+| Build on elah | A browser-based AI editing workflow with validated plans, preview, keep/discard/refine, and one-step reversal | [Requirements and idea directions](challenges/elah.md) |
 
-## Start Here
+All three final briefs use a **two-hour (120-minute) build plan**. The elah examples are optional idea directions; you may build your own workflow that meets its requirements. Follow the build window and deadline announced by the organizers.
 
-### 1. Pre-Event Prep
+See the [MLH event challenges page](https://www.mlh.com/events/react-hyderabad-hack-day/challenges) for event updates. The supplied briefs are available alongside each challenge. Partner technologies mentioned in the learning guides are optional learning resources; they do not add categories to the three challenges listed here.
 
-Read this first:
+## Submit your project
 
-👉 [PRE-EVENT-PREP.md](https://github.com/reacthyderabad/hacktoberfest-hack-day-2026/blob/main/PRE-EVENT-PREP.md)
+1. Fork this repository.
+2. Build in your own public project repository.
+3. Create a branch in your fork, such as `submission/my-project`.
+4. Copy `SUBMISSION_TEMPLATE.md` to `submissions/project-name_team-or-attendee-name.md`.
+5. Complete the project details, challenge evidence, repository link, and demo instructions.
+6. Open a PR to this repository titled `Submission: Project Name - Team or Attendee Name`.
 
-This is the quick checklist for the event.
+Follow [CONTRIBUTING.md](CONTRIBUTING.md) for the full process. A PR records your project for community review; it does not replace any submission required on MLH's platform. Follow the organizers' submission and eligibility instructions. PR merging is handled by maintainers.
 
-It covers:
+## Before arriving
 
-- Git & GitHub basics
-- Programming and API basics
-- Basic AI concepts
-- Open-source licensing
-- Required development setup
-- Google Gemma
-- Snowflake CoCo
-- Solana Agent Registry
-- GitHub Copilot
+- [ ] Laptop and charger
+- [ ] Git, GitHub account, and code editor
+- [ ] Node.js or Python and the tools needed for your chosen challenge
+- [ ] Prep guide and crash course completed
+- [ ] A small project idea and a sample input
 
-If you are short on time, **at minimum go through this file before coming to the event.**
+Learning, installing tools, and testing small examples before the event are encouraged. Do not build your Hack Day submission before the event.
 
----
+## Community
 
-### 2. Hack Day Crash Course
+Be welcoming, credit your sources, and share progress honestly. Read the [Code of Conduct](CODE_OF_CONDUCT.md) and [security guidance](SECURITY.md).
 
-After completing the prep guide, go through:
-
-👉 [HACK-DAY-CRASH-COURSE.md](https://github.com/reacthyderabad/hacktoberfest-hack-day-2026/blob/main/HACK-DAY-CRASH-COURSE.md)
-
-This explains the important concepts in a little more detail, including:
-
-- Open Source
-- Open-Weight AI
-- LLMs
-- Prompts
-- Context
-- RAG
-- Embeddings
-- AI Agents
-- Tool Calling
-- Agent Skills
-- Model Harnesses
-- Google Gemma
-- Snowflake CoCo
-- Solana Agent Registry
-- GitHub Copilot
-
-This is still designed as a **beginner-friendly crash course**, not an advanced AI/ML guide.
-
----
-
-## Recommended Order
-
-Follow this order before the event:
-
-```text
-PRE-EVENT-PREP.md
-        ↓
-Check your development setup
-        ↓
-HACK-DAY-CRASH-COURSE.md
-        ↓
-Explore the partner technology you are interested in
-        ↓
-Come ready to build 🚀
-```
-
-You do **not** need to learn every technology deeply.
-
-Understand the basics first, then explore the technology that best fits what you want to build.
-
----
-
-## MLH Partner Challenge Technologies
-
-The Hack Day includes partner challenge categories around:
-
-- **Google Gemma**
-- **Snowflake CoCo**
-- **Solana Agent Registry**
-- **GitHub Copilot**
-
-You can explore one or more of these depending on your project idea.
-
-The prep files include relevant documentation and learning resources for each.
-
----
-
-## What You Should Have Ready
-
-Before coming to the Hack Day, make sure you have:
-
-- [ ] Laptop
-- [ ] Laptop charger
-- [ ] Git installed
-- [ ] GitHub account ready
-- [ ] Code editor installed
-- [ ] Node.js or Python installed
-- [ ] Basic Git/GitHub knowledge
-- [ ] Basic API knowledge
-- [ ] Basic understanding of LLMs and open-weight AI
-- [ ] Read the Pre-Event Prep guide
-- [ ] Read the Hack Day Crash Course
-
----
-
-## Important
-
-Please **do not build your Hack Day submission before the event**.
-
-You are encouraged to:
-
-- Learn the concepts
-- Read documentation
-- Install tools
-- Explore technologies
-- Test small examples
-- Prepare your development environment
-
-The actual hackathon project should be built during the Hack Day according to the event rules.
-
----
-
-## About the Learning Resources
-
-The resources and links shared in this repository are provided only for **reference**.
-
-You are free to learn these topics from any source you prefer:
-
-- Official documentation
-- Blogs
-- YouTube videos
-- Courses
-- Tutorials
-- Community resources
-- Any other learning platform
-
-What matters is that you understand the concepts before the event.
-
----
-
-## Must Read Before the Event
-
-Going through the preparation material in this repository is **mandatory before attending the Hack Day**.
-
-You do not need to memorize everything or become an expert.
-
-The expectation is simply that you understand the basic concepts, have your environment ready, and can start building when the Hack Day begins.
-
----
-
-## Organised By
-
-**React Hyderabad**
-
-Building and growing the developer ecosystem in Hyderabad through meetups, workshops, buildathons, hackathons, open source, AI, frontend, cloud, and modern software engineering.
-
-Happy building! 🚀
+Organized by **React Hyderabad**. Submission workflow inspired by the [React Hyderabad × Masters' Union Buildathon repository](https://github.com/reacthyderabad/buildathon-mastersunion-reacthyderabad).

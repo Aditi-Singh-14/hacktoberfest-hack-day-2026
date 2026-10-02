@@ -85,7 +85,9 @@ You only need a high-level understanding before the event.
 
 # Partner Technologies & Challenge Categories
 
-MLH has partner challenge categories around the following technologies. You do not need to master all of them, but you should at least know what each one is before coming.
+The three planned event challenges are listed in [PROBLEM_STATEMENTS.md](PROBLEM_STATEMENTS.md). The technologies below are learning resources, not a list of additional event categories. Choose the tools relevant to your project.
+
+For the local Build on elah challenge, review the [elah brief](challenges/elah.md) and prepare a Chromium browser and Node.js environment.
 
 ## Google Gemma
 

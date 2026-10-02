@@ -1,0 +1,16 @@
+name: Documentation correction
+description: Report an incorrect link, unclear instruction, or challenge detail.
+title: "Docs: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What needs correcting?
+      description: Include the file or section and explain the issue. Do not include private data.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction and source
+      description: Link to the relevant challenge brief or organizer announcement when available.
